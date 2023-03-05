@@ -7,7 +7,7 @@ typedef struct {
     int mau;
 } HonSo;
 
-// Hàm nhap hon so
+// Hàm nhập hỗn số
 void nhapHonSo(HonSo *hs) {
     printf("Nhap phan nguyen: ");
     scanf("%d", &hs->nguyen);
@@ -17,7 +17,7 @@ void nhapHonSo(HonSo *hs) {
     scanf("%d", &hs->mau);
 }
 
-// Hàm xuat hon so
+// Hàm xuất hỗn số
 void xuatHonSo(HonSo hs) {
     printf("%d %d/%d", hs.nguyen, hs.tu, hs.mau);
 }
