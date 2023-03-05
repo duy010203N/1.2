@@ -1,13 +1,13 @@
 #include <stdio.h>
 
-// Khai b�o ki?u d? li?u h?n s?
+// Khai báo kiểu dữ liệu hỗn số
 typedef struct {
     int nguyen;
     int tu;
     int mau;
 } HonSo;
 
-// H�m nh?p h?n s?
+// Hàm nhap hon so
 void nhapHonSo(HonSo *hs) {
     printf("Nhap phan nguyen: ");
     scanf("%d", &hs->nguyen);
@@ -17,7 +17,7 @@ void nhapHonSo(HonSo *hs) {
     scanf("%d", &hs->mau);
 }
 
-// H�m xu?t h?n s?
+// Hàm xuat hon so
 void xuatHonSo(HonSo hs) {
     printf("%d %d/%d", hs.nguyen, hs.tu, hs.mau);
 }
